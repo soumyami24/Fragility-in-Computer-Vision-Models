@@ -7,7 +7,7 @@ The main idea is simple. A model can fail on an image that still looks perfectly
 Across my experiments, perturbations that keep SSIM around 0.85 to 0.90 are still easy for a human to read, yet they can make a model fail.
 
 ---
-#How this project started
+# How this project started
 It began with a comment in one of the computer vision lectures. While discussing benchmark results, the professor said: "A model that scores 99 percent in the lab has only proven that it works in the lab." I had always treated high accuracy as proof of understanding, and that sentence made me doubt it.
 I asked after class whether a model could be fooled by something a human would not even notice. The reply was a challenge: "Don't take my word for it. Try it, and see where it breaks."
 My first test was small. I added a little noise to a face photo and the detector lost the face, even though the image looked normal to me. A one-pixel change flipped a classifier's prediction. From there I moved to medical scans, where aging scanners and noisy sensors raise the same risk, and where the same weakness can be used for patient privacy. That became medical cloaking.
