@@ -1,0 +1,13 @@
+streamlit
+numpy
+opencv-python
+mediapipe
+scikit-image
+Pillow
+torch
+torchvision
+scipy
+pydicom
+matplotlib
+seaborn
+pandas
